@@ -1,0 +1,81 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 62.7%;
+    border: 1px solid #000;
+}
+.col-left,
+.col-right {
+    display: inline-block;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+.col-left {
+    background: #fff;
+    width: 62%;
+}
+.col-right {
+    background: #000;
+    width: 37%;
+} 
+.bg-left,
+.bg-right {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    min-height: 1000px;
+    top: 0px;
+    border: 1px solid #000;
+}
+.bg-left {
+    width: 62%;
+    background: #fff;
+    left: 0px;
+}
+.bg-right {
+    width: 38%;
+    background: #000;
+    right: 0px;
+}
+.hero-info {
+    position: relative;
+    z-index: 1;
+    min-height: 380px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.hero-img, .txt {
+    display: inline-block;
+    position: relative;
+}
+.hero-img {
+    width: 290px;
+    height: auto;
+    float: left;
+    border-radius: 163px;  /* 145px + 18px = 163px */
+    border: 18px solid #000;
+    top: 41px;
+    left: 59px;
+    z-index: 1;
+}
+.txt {
+    width: 65%;
+    min-height: 152px;
+    left: 8px;
+    top: 121px;
+    float: left;
+    background-color: #ff9d01;
+}
+.hero-workplace,
+.hero-name {
+    position: relative;
+}
+.hero-workplace {
+    left: 105px;
+    top: 80px;
+}
+.hero-name {
+    left: 106px;
+    top: 49px;
+}

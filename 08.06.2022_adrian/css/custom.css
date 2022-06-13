@@ -1,0 +1,41 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 62.7%;
+    border: 1px solid #000;
+}
+.col-left,
+.col-right {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.col-left {
+    background: #fff;
+}
+.col-right {
+    background: #000;
+} 
+.bg-left,
+.bg-right {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    min-height: 1000px;
+    top: 0px;
+    border: 1px solid #000;
+}
+.bg-left {
+    width: 62%;
+    background: #fff;
+    left: 0px;
+}
+.bg-right {
+    width: 38%;
+    background: #000;
+    right: 0px;
+}
+.hero-info {
+    position: relative;
+    z-index: 1;
+}

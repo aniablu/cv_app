@@ -1,0 +1,41 @@
+p {
+	line-height: 150%;
+	margin: 0 0 10px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	text-transform: uppercase;
+}
+
+h1, .h1 {
+	font-size: 47px;
+	font-family: 'open_sansbold';
+    word-spacing: 6px;
+	margin: 0 0 15px;
+	
+} 
+
+h2, .h2 {
+	font-size: 18px;
+	font-family: 'open_sansbold';
+	margin: 0 0 12px;
+
+}
+
+h3, .h3 {
+	font-size: 29px;
+	font-family: 'open_sanssemibold';
+	margin: 0 0 12px;
+	word-spacing: 4px;
+}
+
+
+h4, h5, h6 {
+	margin: 5px 0 5px;
+	
+}
+.h3_bg .h3 {
+	font-family: 'open_sansbold';
+	letter-spacing: 5px;
+}
